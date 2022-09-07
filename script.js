@@ -40,7 +40,7 @@ buttons.map((button) => {
         switch (e.target.innerHTML) {
             case 'C':
                 if(calcDisp.innerHTML) {
-                    calcDisp.innerHTML = '';
+                    calcDisp.innerHTML = 'Enter the numbers';
                 }
                 str1 = "";
                 str2 = "";
